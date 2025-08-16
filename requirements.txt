@@ -1,0 +1,20 @@
+# LiteMemory 项目依赖
+# 适用于Python 3.8+
+
+# 核心依赖
+numpy>=1.19.0,<2.0.0  # Python 3.8兼容版本
+requests>=2.25.0      # HTTP客户端
+
+# 嵌入模型
+ollama>=0.1.0         # Ollama Python客户端
+
+# 向量存储
+faiss-cpu>=1.7.0      # FAISS CPU版本（推荐）
+# faiss-gpu>=1.7.0    # FAISS GPU版本（可选，需要CUDA支持）
+
+# 开发依赖（可选）
+# pytest>=6.0.0       # 测试框架
+# pytest-cov>=2.10.0  # 测试覆盖率
+# black>=21.0.0        # 代码格式化
+# isort>=5.0.0         # 导入排序
+# flake8>=3.8.0        # 代码检查
